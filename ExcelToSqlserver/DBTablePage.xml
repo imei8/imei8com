@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBTable>
+  <table>
+    <CName>任职资格台账</CName>
+    <EName>RZHGTable</EName>
+  </table>
+  <table>
+    <CName>叉车司机任职台账</CName>
+    <EName>XCSJTable</EName>
+  </table>
+  <table>
+    <CName>修改的数据</CName>
+    <EName>English</EName>
+  </table>
+</DBTable>
