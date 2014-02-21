@@ -2,14 +2,21 @@
 <DBTable>
   <table>
     <CName>任职资格台账</CName>
-    <EName>RZHGTable</EName>
-  </table>
-  <table>
-    <CName>叉车司机任职台账</CName>
-    <EName>XCSJTable</EName>
-  </table>
-  <table>
-    <CName>修改的数据</CName>
-    <EName>English</EName>
+    <EName>RZZGTZ</EName>
+    <columns>
+      <eColumn eName="RID" eType="nvarchar(MAX)" cName="序号" eLength="varchar(20)" />
+      <eColumn eName="ZHLB" eType="nvarchar(MAX)" cName="证书类别" eLength="nvarchar(MAX)" />
+      <eColumn eName="BM" eType="nvarchar(MAX)" cName="部门" eLength="varchar(20)" />
+      <eColumn eName="Name" eType="nvarchar(MAX)" cName="姓名" eLength="varchar(10)" />
+      <eColumn eName="Gender" eType="nvarchar(MAX)" cName="性别" eLength="varchar(10)" />
+      <eColumn eName="IDNumber" eType="nvarchar(MAX)" cName="省份证" eLength="varchar(20)" />
+      <eColumn eName="WHCD" eType="nvarchar(MAX)" cName="文化程度" eLength="varchar(10)" />
+      <eColumn eName="Job" eType="nvarchar(MAX)" cName="职务/职称" eLength="varchar(10)" />
+      <eColumn eName="FZJG" eType="nvarchar(MAX)" cName="发证机关" eLength="varchar(10)" />
+      <eColumn eName="ZSBH" eType="nvarchar(MAX)" cName="证书编号" eLength="varchar(10)" />
+      <eColumn eName="QZSJ" eType="nvarchar(MAX)" cName="取证时间" eLength="varchar(10)" />
+      <eColumn eName="FSSJ" eType="nvarchar(MAX)" cName="复审时间" eLength="varchar(10)" />
+      <eColumn eName="Other" eType="nvarchar(MAX)" cName="备注" eLength="nvarchar(MAX)" />
+    </columns>
   </table>
 </DBTable>

@@ -25,7 +25,17 @@ namespace ExcelToSqlserver
         {
             XMLBase xmlBase = new XMLBase();
             xmlBase.LoadDome();
-            xmlBase.InsertNode(txtCname.Text,txtEName.Text);
+            bool res = xmlBase.CheckNode(txtCname.Text, txtEName.Text);
+            if (res)
+            {
+                xmlBase.InsertNode(txtCname.Text, txtEName.Text);
+                //跳转向数据表中添加数据列
+                Response.Redirect("EditorTable.aspx?cName=" + txtCname.Text + "&eName=" + txtEName.Text);
+            }
+            else
+            {
+                Label1.Text = "该表存在请重新命名";
+            }
         }
 
         protected void Button2_Click(object sender, EventArgs e)
