@@ -15,7 +15,7 @@
         数据表名：<asp:TextBox ID="txtEName" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="添加" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="添加" style="height: 21px" />
 &nbsp;
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="修改" />
 &nbsp;
